@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ma Page HTML</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!-- En-tête de la page -->
+<header>
+<h1>Bienvenue sur ma page</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione deleniti laudantium unde impedit natus ad ipsum dignissimos perferendis eveniet quod, alias necessitatibus architecto perspiciatis error maxime, hic eius possimus quaerat!</p>
+</header>
+<!-- Section principale -->
+<section>
+<h2>Section Principale</h2>
+<p>Ceci est un paragraphe dans la section principale.</p>
+<div class="gallery">
+	<figure class="gallery-item">
+		<a class="img-link lightbox" href="img/image1.jpg">
+			<img class="thumb" src="img/image1.jpg" alt="Image 1">
+		</a>
+		<figcaption><a href="https://www.inauvergnerhonealpes.com/fiches/le-train-fantome-a-vapeur-train-de-lardeche/" target="_blank" rel="noopener noreferrer">Image 1</a></figcaption>
+	</figure>
+	<figure class="gallery-item">
+		<a class="img-link lightbox" href="img/image2.jpg">
+			<img class="thumb" src="img/image2.jpg" alt="Image 2">
+		</a>
+		<figcaption><a href="https://youtu.be/aFpsqm4NvtU" target="_blank" rel="noopener noreferrer">Image 1</a></figcaption>
+	</figure>
+</div>
+</section>
+<!-- Liens de navigation -->
+<nav>
+<ul>
+<li><a href="accueil.html">Page au même niveau</a></li>
+<li><a href="img/frog-1339892_640.jpg" target="_blank" rel="noopener noreferrer">Page dans le même dossier</a></li>
+<li><a href="https://www.youtube.com/watch?v=LZXIjUd1S-0&list=RD-faWY1F4sAs&index=23" target="_blank" rel="noopener noreferrer">Visiter youtube</a></li>
+</ul>
+</nav>
+<!-- Formulaire avec différents types d'inputs -->
+<form action="mailto:thramanitra@gmail.com" method="post" enctype="text/plain">
+<label for="texte">Texte :</label>
+<input type="text" id="texte" name="texte" required><br><br>
+<label for="mot_de_passe">Mot de passe :</label>
+<input type="password" id="mot_de_passe" name="mot_de_passe" required><br
+><br>
+<label for="email">Email :</label>
+<input type="email" id="email" name="email" required><br><br>
+<label for="date">Date :</label>
+<input type="date" id="date" name="date"><br><br>
+<label for="couleur">Couleur :</label>
+<input type="color" id="couleur" name="couleur"><br><br>
+<input type="submit" value="Envoyer">
+</form>
+<!-- Pied de page -->
+<footer>
+<h3>Pied de page</h3>
+<p>Ceci est le footer de ma page web.</p>
+</footer>
+<script defer src="js/lightbox.js"></script>
+</body>
+</html>
